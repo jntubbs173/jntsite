@@ -2,32 +2,61 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* || NAV || */
+
 nav {
     width: 100%;
-    text-align: center;
+    height: 50px;
+    background-color:lightsteelblue;
+    display: flex;
 }
 
-nav p {
-    width: 400px;
-    display:inline-block;
-    padding: 5px;
-    border: 1px solid black;
-    font-weight: bold;
+nav li {
+    display: inline;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
 }
+
+nav a,
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: teal;
+}
+
+nav a:active {
+    color: darkblue;
+}
+
+/* || HEADER || */
 
 header {
-    text-align: center;
-    margin: 10px auto;
-    border: 1px solid red;
-    height: 300px;
-    max-width: 1000px;
-    background-image: url("DSC_0658.JPG");
-    background-size: 1000px;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: url("juniperberries.jpeg");
+    /*filter: blur(2px);*/
+    background-size: cover;
+    display: flex;
 }
 
 header h1 {
-    margin: 120px auto;
-    color: white;
+    margin: auto;
+    color: black;
+    text-align: center;
+    font-family: 'Zeyada', cursive;
+    font-size: 110px;
+    filter: none;
 }
 
 #biopic {
@@ -37,8 +66,18 @@ header h1 {
     display: block;
 }
 
+/* || MAIN || */
+
 main {
     text-align: center;
     margin-top: 50px;
     font-weight: bold;
+}
+
+/* || ELEMENTS || */
+
+a:hover {
+    color: teal;
+    text-decoration: none;
+    cursor: pointer;
 }
