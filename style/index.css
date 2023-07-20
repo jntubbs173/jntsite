@@ -12,7 +12,8 @@ html, body {
 nav {
     width: 100%;
     height: 50px;
-    background-color:lightsteelblue;
+    /*background-color:lightsteelblue;*/
+    background: linear-gradient(to left, #b0c4de, #295D8A);
     display: flex;
 }
 
@@ -52,11 +53,11 @@ header {
 
 header h1 {
     margin: auto;
-    color: black;
+    color: white;
     text-align: center;
     font-family: 'Zeyada', cursive;
     font-size: 110px;
-    filter: none;
+    filter: drop-shadow(0 1px 1px black);
 }
 
 #biopic {
